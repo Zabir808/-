@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Background </title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+p{
+    font-family:  "Noto Sans JP", sans-serif; 
+    font-weight: weight;
+    font-style: normal;
+}
+#demo1{
+    height: 300px;
+    width: 400px;
+    background-color: cadetblue;
+    color: blue;
+    transform: rotateX('180deg');
+    border: 1px solid rgb(29,3,55);
+}
+h2{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+h3{
+    text-decoration: overline;
+    text-transform: lowercase;
+}
+h4{
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+.textshadow{
+    text-shadow: 1px 1px 2px rgb(22, 13, 196);
+    color: black;
+    background-color: aqua;
+}
+.boxshadow{
+    height: 100px;
+    width: 120px;
+    background-color: firebrick;
+    color: azure;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    box-shadow: 2px 4px 6px rgb(22, 13, 196);
+    border-radius: 8px;
+    border: 4px dotted lawngreen;
+    cursor: pointer;
+    transform: rotateY('-2px');
+}
+.boxshadow:hover{
+    background-color: rgb(26, 14, 14);
+    box-shadow: 1px 3px 9px rgb(81, 138, 6);
+}
+    </style>
+
+</head>
+
+<body>
+<h1>Text styling CSS</h1>
+<p>アドルフヒトラー</p>
+<div id="demo1">
+               Web development
+</div>
+<h2> Text decoration overline</h2>
+<h3>Text decoration underline</h3>
+<h4>Text decoration line-through</h4> 
+<p class="textshadow">
+    アクサー・パテルがT20ワールドカップ決勝で決定的な打撃を与えた戦術を披露
+</p>
+<div class="boxshadow"></div>
+</body>
+
+</html>
